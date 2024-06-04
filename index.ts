@@ -12,22 +12,7 @@
  * Do not edit the class manually.
  */
 
-/**
- * 
- * @export
- * @interface RmaRejectReturnRequest
- */
-export interface RmaRejectReturnRequest {
-    /**
-     * 
-     * @type {string}
-     * @memberof RmaRejectReturnRequest
-     */
-    'tenantId': string;
-    /**
-     * 
-     * @type {string}
-     * @memberof RmaRejectReturnRequest
-     */
-    'id': string;
-}
+
+export * from "./api";
+export * from "./configuration";
+
